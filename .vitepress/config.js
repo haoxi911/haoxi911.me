@@ -5,17 +5,17 @@ import { getPosts } from './theme/serverUtils'
 const pageSize = 10
 
 export default defineConfig({
-    title: 'vitepress',
+    title: 'Kevin\'s Blog',
     base: '/',
     cacheDir: './node_modules/vitepress_cache',
-    description: 'vitepress,blog,blog-theme',
+    description: 'Nurturing Growth: Capturing Every Step of the Journey',
     ignoreDeadLinks: true,
     themeConfig: {
         posts: await getPosts(pageSize),
-        website: 'https://github.com/airene/vitepress-blog-pure', //copyright link
+        website: 'https://github.com/haoxi911/haoxi911.me', //copyright link
         // 评论的仓库地址
         comment: {
-            repo: 'airene/vitepress-blog-pure',
+            repo: 'haoxi911/haoxi911.me',
             themes: 'github-light',
             issueTerm: 'pathname'
         },
@@ -29,7 +29,7 @@ export default defineConfig({
 
         //outline:[2,3],
         outlineTitle: '文章摘要',
-        socialLinks: [{ icon: 'github', link: 'https://github.com/airene/vitepress-blog-pure' }]
+        socialLinks: [{ icon: 'github', link: 'https://github.com/haoxi911' }]
     },
     srcExclude: ['README.md'], // exclude the README.md , needn't to compiler
 
