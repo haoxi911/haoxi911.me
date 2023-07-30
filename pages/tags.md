@@ -5,4 +5,6 @@ description: Tags
 aside: false
 ---
 
-<Tags/>
+<ClientOnly>
+  <Tags/>
+</ClientOnly>

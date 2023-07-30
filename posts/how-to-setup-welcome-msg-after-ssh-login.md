@@ -145,4 +145,6 @@ Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-83-generic x86_64)
 Last login: Tue Dec 12 09:48:27 2017 from 5.6.7.8
 ```
 
-<Comment />
+<ClientOnly>
+  <Comment />
+</ClientOnly>

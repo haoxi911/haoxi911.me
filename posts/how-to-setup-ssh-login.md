@@ -157,5 +157,6 @@ $ scp ~/Images/banner.png haoxi911:/var/www/html/public/imgs
 #复制本地文件夹到服务器
 $ scp -r ~/Images haoxi911:/var/www/html/public/imgs
 ```
-
-<Comment />
+<ClientOnly>
+  <Comment />
+</ClientOnly>
